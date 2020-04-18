@@ -1,0 +1,31 @@
+
+	body{
+		background-color: #dbdbdb;
+	}
+
+    .title {
+      background-color: #cf7500;
+      color: #dbdbdb;
+    }
+
+    .zutaten {
+      background-color: #dbdbdb;
+      padding: 20px 25%;
+    }
+
+    .zubereitung {
+      background-color: #f0a500;
+    }
+
+    .footer {
+      color: #dbdbdb;
+      background-color: #000000;
+    }
+	
+	.social-icon {
+	  color: #f0a500;
+	}
+
+	.social-icon:hover {
+	  color: #cf7500;
+	}
