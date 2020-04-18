@@ -1,15 +1,67 @@
 <!DOCTYPE html []>
 <html>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="MarkdownViewer++" />
-  <title>Deutscher Karottenkuchen</title>
-  <link rel="stylesheet" href="../../styles/general.css">
-  <link rel="stylesheet" href="../styles/styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>Karottenkuchen</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1b5b44bade.js" crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" href="../../styles/general.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
 
 <body>
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Kochen mit Franzi und Luis</a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index_de.html"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Hauptgerichte
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item disabled" href="../../Pizza/DE/index.html">Pizza</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nachtische
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../../TortaZanahoria/DE/index.html">Karottenkuchen</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-language"></i>
+                    Sprache
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../ES/index.html">Spanisch</a>
+                    <a class="dropdown-item" href="index.html">Deutsch</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
   <div class="title">
     <h1 id="deutscher-karottenkuchen">Deutscher Karottenkuchen</h1>
 	  <img src="../images/Torta_de_Zanahoria.jpg" alt="">
@@ -64,10 +116,62 @@
     </ol>
   </div>
   <div class="footer">
-    <p>
-      <a href="https://www.fotokasten.de/blog/karottenkuchen/">Quelle</a>
-    </p>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="media">
+          <img src="../../images/franzistraubcircle.png" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">Franzi Straub</h5>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/franzi.straub"><i
+                    class="social-icon fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/franzi_s9"><i
+                    class="social-icon fab fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:frastraub@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="media">
+          <img src="../../images/luisvelacircle.png" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">Luis Vela López</h5>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/luisvelalopez"><i
+                    class="social-icon fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/luisvelalopez"><i
+                    class="social-icon fab fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:luisvelalopez@gmail.com"><i
+                    class="social-icon fas fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
