@@ -86,3 +86,7 @@
     .navbar .fas{
       padding-right: 10px;    
     }
+
+    .navbar img{
+      width: 20px;
+    }
