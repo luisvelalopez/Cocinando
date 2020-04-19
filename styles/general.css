@@ -90,3 +90,21 @@
     .navbar img{
       width: 20px;
     }
+
+    @media (max-width: 1028px) {
+      
+      body{
+        font-size: 1.5rem;
+      }
+      
+      .title {
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px 0 0;
+      }
+
+      .zutaten, .zubereitung {
+        padding: 20px 0%;
+      }
+
+  }
