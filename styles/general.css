@@ -97,7 +97,18 @@
         letter-spacing: .5px;
       }
 
-      .navbar-brand {
-        font-size: 2rem;
-      }
-    }
+	  .navbar-brand{
+		font-size: 30px;
+	  }
+	  
+	  .nav-link{
+		  font-size: 25px;
+	  }
+	  
+	  .navbar-toggler-icon{
+		  height: 1.8rem;
+		  width: 1.8rem;
+	  }
+	  
+	}
+	
