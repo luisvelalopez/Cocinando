@@ -1,7 +1,7 @@
 # Weihnachtlicher Beinschinken/Keule venezolanischer Art (Pernil navideño venezolano)
 
 Zutaten für 5 Personen
-* 2 kg Beinschinken/Keule (ohne Knochen)
+* 2 kg Beinschinken/Keule/Nuss (ohne Knochen)
 
 ## Für die Soße
 
